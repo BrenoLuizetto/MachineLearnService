@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MachineLearnService'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A short description of MachineLearnService.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.3'
 
   s.source_files = 'MachineLearnService/Classes/**/*'
+  s.resources = 'MachineLearnService/Assets/**/*'
   
-   s.resource_bundles = {
-    'MachineLearnService' => ['MachineLearnService/Assets/**/*']
-   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

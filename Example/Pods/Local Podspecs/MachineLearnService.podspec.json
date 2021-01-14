@@ -19,9 +19,5 @@
     "ios": "14.3"
   },
   "source_files": "MachineLearnService/Classes/**/*",
-  "resource_bundles": {
-    "MachineLearnService": [
-      "MachineLearnService/Assets/**/*"
-    ]
-  }
+  "resources": "MachineLearnService/Assets/**/*"
 }
