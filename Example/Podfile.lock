@@ -1,0 +1,16 @@
+PODS:
+  - MachineLearnService (1.1.0)
+
+DEPENDENCIES:
+  - MachineLearnService (from `../`)
+
+EXTERNAL SOURCES:
+  MachineLearnService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MachineLearnService: 58af58baebbebadee2dd681e7b5f5827ed80d120
+
+PODFILE CHECKSUM: d79950515d96ef0e8047c0370c9e8c40231f1a04
+
+COCOAPODS: 1.10.1

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MachineLearnService'
-  s.version          = '0.1.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of MachineLearnService.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/BrenoLuizetto/MachineLearnService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.3'
 
   s.source_files = 'MachineLearnService/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MachineLearnService' => ['MachineLearnService/Assets/*.png']
-  # }
+   s.resource_bundles = {
+    'MachineLearnService' => ['MachineLearnService/Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

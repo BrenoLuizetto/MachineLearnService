@@ -1,0 +1,27 @@
+{
+  "name": "MachineLearnService",
+  "version": "1.1.0",
+  "summary": "A short description of MachineLearnService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BrenoLuizetto/MachineLearnService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrenoLuizetto": "cintrabreno22@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BrenoLuizetto/MachineLearnService.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "14.3"
+  },
+  "source_files": "MachineLearnService/Classes/**/*",
+  "resource_bundles": {
+    "MachineLearnService": [
+      "MachineLearnService/Assets/**/*"
+    ]
+  }
+}

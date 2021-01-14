@@ -1,0 +1,6 @@
+framework module MachineLearnService {
+  umbrella header "MachineLearnService-umbrella.h"
+
+  export *
+  module * { export * }
+}
