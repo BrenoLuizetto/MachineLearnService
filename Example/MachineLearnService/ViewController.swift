@@ -11,16 +11,7 @@ import MachineLearnService
 
 class ViewController: UIViewController {
 
-    let analizer: ImageAnalyzerService
-   
-   init(analizer: ImageAnalyzerService = ImageAnalyzer()){
-       self.analizer = analizer
-    super.init(nibName: nil, bundle: nil)
-   }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
+    let analizer = ImageAnalyzer()
     
     
     override func viewDidLoad() {

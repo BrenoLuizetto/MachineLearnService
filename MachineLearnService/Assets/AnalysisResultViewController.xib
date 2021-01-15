@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnalysisResultViewController" customModule="Module_Example" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnalysisResultViewController" customModule="MachineLearnService" customModuleProvider="target">
             <connections>
                 <outlet property="uiConfidenceLabel" destination="pZS-xL-jyY" id="mTH-Ny-1M0"/>
                 <outlet property="uiResulLabel" destination="hXx-l3-Amt" id="A7r-RV-fPM"/>

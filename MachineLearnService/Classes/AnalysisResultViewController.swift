@@ -21,7 +21,7 @@ import Vision
      init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
-        super.init(nibName: "AnalysisResultViewController", bundle: nil)
+        super.init(nibName: "AnalysisResultViewController", bundle: Bundle(for: AnalysisResultViewController.self))
     }
     
     required init?(coder: NSCoder) {
