@@ -1,5 +1,5 @@
 PODS:
-  - MachineLearnService (1.1.0)
+  - MachineLearnService (1.1.1)
 
 DEPENDENCIES:
   - MachineLearnService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MachineLearnService: 7f7fd9ca23183f848dc500e39ef311219f005b1b
+  MachineLearnService: 034d242e82b0edf803a15fa1bd7f52a953571305
 
 PODFILE CHECKSUM: 89a2d4ee9c6304c4bb5828302d48f8ac6f22a970
 

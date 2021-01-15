@@ -17,7 +17,9 @@ import Vision
     
      var results: [VNClassificationObservation]
      var imageToLoad: UIImage
-    
+     
+        
+     
      init(image: UIImage, results: [VNClassificationObservation]) {
         self.imageToLoad = image
         self.results = results
@@ -35,6 +37,7 @@ import Vision
     
     //MARK: - Methods
      func setupResults() {
+        
         uiResultImageView.image = imageToLoad
         if let firstResult = results.first {
             uiResulLabel.text = firstResult.identifier
@@ -43,4 +46,5 @@ import Vision
             navigationController?.popToRootViewController(animated: true)
         }
     }
+    
 }

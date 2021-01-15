@@ -8,84 +8,88 @@
 
 /* Begin PBXBuildFile section */
 		00AEBE7964D2263C7E5EA7F9D5A606E1 /* Pods-MachineLearnService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C503284D494C0C5F08861F9C3E7E299C /* Pods-MachineLearnService_Tests-dummy.m */; };
-		113772A71E45365F60895572B90CADDD /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3992325B240D4A679352C2B63D0F794B /* MNISTClassifier.mlmodel */; };
-		2A8A05EC1D7354480D528FD3318A592D /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FF74B6770BFBBBDE94C4AC7A21C0C1 /* AnalysisResultViewController.swift */; };
-		3AC1159BC67F4930409F0A3BB0BE144A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4945F1B505481A0ECE912349B902848D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE8B8FD490936A56E31697318D8DF9 /* ReplaceMe.swift */; };
+		0D77A96E0939F1256F6D6251B9B21DD1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFABDBDAB9618BC51EDDC8DC5765318B /* ReplaceMe.swift */; };
+		135E6885F94FD625C119CD5C075FB7C1 /* AnalysisResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0C470FFD604F314A7EEE183AA845E /* AnalysisResultViewController.swift */; };
+		30468319D9FE29404CAE3858A7086CFF /* AnalysisResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F45971A4B036DBFB5B93A0CA2B91ECF /* AnalysisResultViewController.xib */; };
+		5B4725C48C696417B1617D299E78FFC0 /* MachineLearnService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35311F8B55F9DC795F703FD60EBC4E7 /* MachineLearnService-dummy.m */; };
+		6067E433A45D633B3F6074309BBF46B3 /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9520E69FD9DFE6AD2546E32AE397C51 /* ImageAnalyzerService.swift */; };
 		6790EBA2EFBBDA68748DEDCEB46D074C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		998F6F6B37CE8A5CB655D3C9DE9FF4AE /* MachineLearnService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 757307B2AF78C2D8B3E41C6C87F93733 /* MachineLearnService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0437D46864784D4F340753AAA3232D /* AllVehiclesClassificator2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F44DEBCA149A5194EE9C30877DC317A0 /* AllVehiclesClassificator2.mlmodel */; };
+		A676CD011A32E2A75CC23B6178062484 /* MNISTClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 64B802B0B0059A15642C9CF573DA41D6 /* MNISTClassifier.mlmodel */; };
+		AA4943C8400A269657A1207C325B1554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AD892CF3E7931CE76B5B88E6669479FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCAAA4D4B1CBD4EC9C58E5C6EE7A51AD /* MachineLearnService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C471D5C8B481920A0813FC6D4771A8E /* MachineLearnService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD10DB5E375B6208FA18F0C454678F84 /* Pods-MachineLearnService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC2D1F9C898A803AE73956E89C2855E /* Pods-MachineLearnService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE5165801127D39AB0180B33A6248434 /* Pods-MachineLearnService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BF32D0535D8984C86276666FD8BFAF /* Pods-MachineLearnService_Example-dummy.m */; };
-		C84E083115274D84C5C99E62529EDF27 /* ImageAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01E40F0C3C3C1BCE29F037BDBF182D4 /* ImageAnalyzerService.swift */; };
 		D367298DA6DA434287F8ACA3B24A2C2F /* Pods-MachineLearnService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 489AD3FC2F9707ABC216751514F9163E /* Pods-MachineLearnService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3852A713BEE8943AF756A77A202930A /* AnalysisResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD8EE66553A550857D4531D5077E262 /* AnalysisResultViewController.xib */; };
-		EC7B758F582B42A8EE6EB6D5BCA83033 /* MachineLearnService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B68AC58951C0AD98CC348DC322C68851 /* MachineLearnService-dummy.m */; };
+		E90F99568AA4C1AC88D40F1EA9FCEC53 /* ConfiguraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86926D4C2CEE058D90CCC50B00FEAB7C /* ConfiguraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5554CDE3034B588821B4550673CFA28B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61B847E84ACC4AEE8C0637711AE6A16A;
-			remoteInfo = MachineLearnService;
-		};
-		EDC2D3EF320995008C09839DA9EA424C /* PBXContainerItemProxy */ = {
+		14C43FBBDAC16AA842FBA1E12910AF9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 451627F47E9ABA922D48B9CFB0F08B46;
 			remoteInfo = "Pods-MachineLearnService_Example";
 		};
+		BE476450E923BB1886157D2E199A7E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B847E84ACC4AEE8C0637711AE6A16A;
+			remoteInfo = MachineLearnService;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0566B20374F3DA1DED989916C9E809C1 /* Pods-MachineLearnService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MachineLearnService_Example.modulemap"; sourceTree = "<group>"; };
-		06247F640EBAC52F0C54286795BB2780 /* MachineLearnService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MachineLearnService.modulemap; sourceTree = "<group>"; };
+		0C471D5C8B481920A0813FC6D4771A8E /* MachineLearnService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearnService-umbrella.h"; sourceTree = "<group>"; };
+		0F45971A4B036DBFB5B93A0CA2B91ECF /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnalysisResultViewController.xib; path = MachineLearnService/Assets/AnalysisResultViewController.xib; sourceTree = "<group>"; };
 		112DA926067F13627CC3FB6A26C12F61 /* Pods-MachineLearnService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MachineLearnService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		23C99B7DDA063E9EFFC93A1C2339FC8C /* MachineLearnService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MachineLearnService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24F0C470FFD604F314A7EEE183AA845E /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = MachineLearnService/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
 		297E8F9092FC469F724FCEF6966CC0C4 /* Pods-MachineLearnService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MachineLearnService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2FA710E2897F564A3F71C6322A55A31C /* Pods_MachineLearnService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MachineLearnService_Tests.framework; path = "Pods-MachineLearnService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3992325B240D4A679352C2B63D0F794B /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = MNISTClassifier.mlmodel; path = MachineLearnService/Classes/MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 		489AD3FC2F9707ABC216751514F9163E /* Pods-MachineLearnService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MachineLearnService_Example-umbrella.h"; sourceTree = "<group>"; };
 		51BF32D0535D8984C86276666FD8BFAF /* Pods-MachineLearnService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MachineLearnService_Example-dummy.m"; sourceTree = "<group>"; };
-		5562A635D1D3C7DE7218081635F01664 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		61D74052E291A154A284E6D31B799D79 /* MachineLearnService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearnService.debug.xcconfig; sourceTree = "<group>"; };
-		68FF74B6770BFBBBDE94C4AC7A21C0C1 /* AnalysisResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalysisResultViewController.swift; path = MachineLearnService/Classes/AnalysisResultViewController.swift; sourceTree = "<group>"; };
+		64B802B0B0059A15642C9CF573DA41D6 /* MNISTClassifier.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = MNISTClassifier.mlmodel; path = MachineLearnService/Classes/MNISTClassifier.mlmodel; sourceTree = "<group>"; };
 		69FF36D7AAF2C81A6C3C895D3DABE129 /* Pods-MachineLearnService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MachineLearnService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CD8EE66553A550857D4531D5077E262 /* AnalysisResultViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AnalysisResultViewController.xib; path = MachineLearnService/Assets/AnalysisResultViewController.xib; sourceTree = "<group>"; };
 		6FC3948CE441718CE5D054342C921162 /* Pods-MachineLearnService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MachineLearnService_Tests-Info.plist"; sourceTree = "<group>"; };
 		7090E496C31D19B5B82C0C7209B54E55 /* Pods-MachineLearnService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MachineLearnService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		757307B2AF78C2D8B3E41C6C87F93733 /* MachineLearnService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearnService-umbrella.h"; sourceTree = "<group>"; };
 		80F56549DC3633E0CED5C7B95395084F /* Pods-MachineLearnService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MachineLearnService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81C245AD864071055535744A9C1140BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86926D4C2CEE058D90CCC50B00FEAB7C /* ConfiguraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfiguraView.swift; path = MachineLearnService/Classes/ConfiguraView.swift; sourceTree = "<group>"; };
+		8876488A8BCF55E091D077D17A8B5E5E /* MachineLearnService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearnService.release.xcconfig; sourceTree = "<group>"; };
+		8A11244E15E4D62F8BFC7FD5FEE33AB3 /* MachineLearnService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearnService-prefix.pch"; sourceTree = "<group>"; };
 		8CDC5B81FAE1BFBF68BE0F53915BCE64 /* Pods-MachineLearnService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MachineLearnService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4FEA3C1E88D6E793E04145BE86F87B /* MachineLearnService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MachineLearnService.framework; path = MachineLearnService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECB6EEABEF871A67CCEC7533A11F979 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A165E73476D391DB6DBFB594EDAB64FC /* MachineLearnService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearnService.debug.xcconfig; sourceTree = "<group>"; };
+		A3AA0576B5076623AC0FB4D606D49C27 /* MachineLearnService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MachineLearnService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB6535BF692A3649DDB64BFD13290B28 /* Pods-MachineLearnService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MachineLearnService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B68AC58951C0AD98CC348DC322C68851 /* MachineLearnService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MachineLearnService-dummy.m"; sourceTree = "<group>"; };
 		B810F6FCB071535A977E8100280D02F6 /* Pods-MachineLearnService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MachineLearnService_Tests.modulemap"; sourceTree = "<group>"; };
-		BC76C1197BD3B7BF1BCA4DEF7AD699BE /* MachineLearnService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MachineLearnService-Info.plist"; sourceTree = "<group>"; };
-		C01E40F0C3C3C1BCE29F037BDBF182D4 /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAnalyzerService.swift; path = MachineLearnService/Classes/ImageAnalyzerService.swift; sourceTree = "<group>"; };
+		B9520E69FD9DFE6AD2546E32AE397C51 /* ImageAnalyzerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAnalyzerService.swift; path = MachineLearnService/Classes/ImageAnalyzerService.swift; sourceTree = "<group>"; };
 		C2797E2C071111578C272F3F59342EAC /* Pods-MachineLearnService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MachineLearnService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C503284D494C0C5F08861F9C3E7E299C /* Pods-MachineLearnService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MachineLearnService_Tests-dummy.m"; sourceTree = "<group>"; };
-		D0CE8B8FD490936A56E31697318D8DF9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MachineLearnService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		DBE622FD874356FCBEC7C981D018EB0C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D35311F8B55F9DC795F703FD60EBC4E7 /* MachineLearnService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MachineLearnService-dummy.m"; sourceTree = "<group>"; };
 		DF836D812937DD8A67EA71F093ACA882 /* Pods_MachineLearnService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MachineLearnService_Example.framework; path = "Pods-MachineLearnService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F0C25421A23B2078CEEC4B402DD727 /* Pods-MachineLearnService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MachineLearnService_Example-Info.plist"; sourceTree = "<group>"; };
 		E979A32D592834F1FACDB11721AA2DCD /* Pods-MachineLearnService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MachineLearnService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA4775B9078B73522915B39E9574EC90 /* MachineLearnService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MachineLearnService-prefix.pch"; sourceTree = "<group>"; };
-		EF72B68BDA7D5CB7784D8B286B3F3DE6 /* MachineLearnService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MachineLearnService.release.xcconfig; sourceTree = "<group>"; };
+		EFABDBDAB9618BC51EDDC8DC5765318B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MachineLearnService/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F44DEBCA149A5194EE9C30877DC317A0 /* AllVehiclesClassificator2.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = AllVehiclesClassificator2.mlmodel; path = MachineLearnService/Classes/AllVehiclesClassificator2.mlmodel; sourceTree = "<group>"; };
+		F71046AD616ABE7E9700014E13903EA6 /* MachineLearnService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MachineLearnService.modulemap; sourceTree = "<group>"; };
+		FB5F539115EFA0EBD76E9E040D641EBB /* MachineLearnService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MachineLearnService-Info.plist"; sourceTree = "<group>"; };
 		FBC2D1F9C898A803AE73956E89C2855E /* Pods-MachineLearnService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MachineLearnService_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B7FB267B3AB728B1EC45484D07A42131 /* Frameworks */ = {
+		45900268CE990B653E7E33281FBCCF7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC1159BC67F4930409F0A3BB0BE144A /* Foundation.framework in Frameworks */,
+				AA4943C8400A269657A1207C325B1554 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,14 +129,6 @@
 			path = "Target Support Files/Pods-MachineLearnService_Example";
 			sourceTree = "<group>";
 		};
-		3C3D80572F9025755F9996DD4DDBF42C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5C39EEE8C945AED0E21AF7B8A0D6F117 /* MachineLearnService */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		49E3FD22060770AFA69899B480F5980B /* Pods-MachineLearnService_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +145,23 @@
 			path = "Target Support Files/Pods-MachineLearnService_Tests";
 			sourceTree = "<group>";
 		};
+		4DB143475BE2764A16E4D86B40873E65 /* MachineLearnService */ = {
+			isa = PBXGroup;
+			children = (
+				F44DEBCA149A5194EE9C30877DC317A0 /* AllVehiclesClassificator2.mlmodel */,
+				24F0C470FFD604F314A7EEE183AA845E /* AnalysisResultViewController.swift */,
+				0F45971A4B036DBFB5B93A0CA2B91ECF /* AnalysisResultViewController.xib */,
+				86926D4C2CEE058D90CCC50B00FEAB7C /* ConfiguraView.swift */,
+				B9520E69FD9DFE6AD2546E32AE397C51 /* ImageAnalyzerService.swift */,
+				64B802B0B0059A15642C9CF573DA41D6 /* MNISTClassifier.mlmodel */,
+				EFABDBDAB9618BC51EDDC8DC5765318B /* ReplaceMe.swift */,
+				8FCD98D58A36E60D1A934D448F7D5A54 /* Pod */,
+				ED1BDC15C00511783925C553651D6806 /* Support Files */,
+			);
+			name = MachineLearnService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		52DA19F6EA456075C12384806C17C123 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,16 +169,6 @@
 				49E3FD22060770AFA69899B480F5980B /* Pods-MachineLearnService_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		53F4EE558FA5A61863DD986CC3BA8226 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DBE622FD874356FCBEC7C981D018EB0C /* LICENSE */,
-				23C99B7DDA063E9EFFC93A1C2339FC8C /* MachineLearnService.podspec */,
-				5562A635D1D3C7DE7218081635F01664 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -176,41 +179,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C39EEE8C945AED0E21AF7B8A0D6F117 /* MachineLearnService */ = {
+		8FCD98D58A36E60D1A934D448F7D5A54 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				68FF74B6770BFBBBDE94C4AC7A21C0C1 /* AnalysisResultViewController.swift */,
-				6CD8EE66553A550857D4531D5077E262 /* AnalysisResultViewController.xib */,
-				C01E40F0C3C3C1BCE29F037BDBF182D4 /* ImageAnalyzerService.swift */,
-				3992325B240D4A679352C2B63D0F794B /* MNISTClassifier.mlmodel */,
-				D0CE8B8FD490936A56E31697318D8DF9 /* ReplaceMe.swift */,
-				53F4EE558FA5A61863DD986CC3BA8226 /* Pod */,
-				A09F72F239010DBFCEF17490F976FEBC /* Support Files */,
+				81C245AD864071055535744A9C1140BF /* LICENSE */,
+				A3AA0576B5076623AC0FB4D606D49C27 /* MachineLearnService.podspec */,
+				9ECB6EEABEF871A67CCEC7533A11F979 /* README.md */,
 			);
-			name = MachineLearnService;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		A09F72F239010DBFCEF17490F976FEBC /* Support Files */ = {
+		B7793295011052F642D12592728FFAD9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06247F640EBAC52F0C54286795BB2780 /* MachineLearnService.modulemap */,
-				B68AC58951C0AD98CC348DC322C68851 /* MachineLearnService-dummy.m */,
-				BC76C1197BD3B7BF1BCA4DEF7AD699BE /* MachineLearnService-Info.plist */,
-				EA4775B9078B73522915B39E9574EC90 /* MachineLearnService-prefix.pch */,
-				757307B2AF78C2D8B3E41C6C87F93733 /* MachineLearnService-umbrella.h */,
-				61D74052E291A154A284E6D31B799D79 /* MachineLearnService.debug.xcconfig */,
-				EF72B68BDA7D5CB7784D8B286B3F3DE6 /* MachineLearnService.release.xcconfig */,
+				4DB143475BE2764A16E4D86B40873E65 /* MachineLearnService */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MachineLearnService";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3C3D80572F9025755F9996DD4DDBF42C /* Development Pods */,
+				B7793295011052F642D12592728FFAD9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DAE551615A72D191653626CA351AD3B3 /* Products */,
 				52DA19F6EA456075C12384806C17C123 /* Targets Support Files */,
@@ -235,6 +226,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		ED1BDC15C00511783925C553651D6806 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F71046AD616ABE7E9700014E13903EA6 /* MachineLearnService.modulemap */,
+				D35311F8B55F9DC795F703FD60EBC4E7 /* MachineLearnService-dummy.m */,
+				FB5F539115EFA0EBD76E9E040D641EBB /* MachineLearnService-Info.plist */,
+				8A11244E15E4D62F8BFC7FD5FEE33AB3 /* MachineLearnService-prefix.pch */,
+				0C471D5C8B481920A0813FC6D4771A8E /* MachineLearnService-umbrella.h */,
+				A165E73476D391DB6DBFB594EDAB64FC /* MachineLearnService.debug.xcconfig */,
+				8876488A8BCF55E091D077D17A8B5E5E /* MachineLearnService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MachineLearnService";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -246,11 +252,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A83B60C417988FCF103A29F480681874 /* Headers */ = {
+		C1A5D62074092FCCF1A08FA928D19ABE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				998F6F6B37CE8A5CB655D3C9DE9FF4AE /* MachineLearnService-umbrella.h in Headers */,
+				BCAAA4D4B1CBD4EC9C58E5C6EE7A51AD /* MachineLearnService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E41393757E36A3FD3943282ED99981AA /* PBXTargetDependency */,
+				B91C5BB604349F296809D36482DFABED /* PBXTargetDependency */,
 			);
 			name = "Pods-MachineLearnService_Example";
 			productName = "Pods-MachineLearnService_Example";
@@ -286,12 +292,12 @@
 		};
 		61B847E84ACC4AEE8C0637711AE6A16A /* MachineLearnService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DDBE41B55C49A2471E88BC4F6110400 /* Build configuration list for PBXNativeTarget "MachineLearnService" */;
+			buildConfigurationList = E41AFF95B26A2FB1D41DCEB08E6EC513 /* Build configuration list for PBXNativeTarget "MachineLearnService" */;
 			buildPhases = (
-				A83B60C417988FCF103A29F480681874 /* Headers */,
-				3FF09E5285A8097066E4F14E10506298 /* Sources */,
-				B7FB267B3AB728B1EC45484D07A42131 /* Frameworks */,
-				A9EC8CFF3E54A2B6ACE71278D62973BC /* Resources */,
+				C1A5D62074092FCCF1A08FA928D19ABE /* Headers */,
+				1004EBA561B1675B7642DF2046875134 /* Sources */,
+				45900268CE990B653E7E33281FBCCF7B /* Frameworks */,
+				EC76B189DEAB5ECF3DD01EABD63FF777 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -314,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4C65F8F433E02914A65F71062532209A /* PBXTargetDependency */,
+				29D194CDE20D017A86583430B2CA778D /* PBXTargetDependency */,
 			);
 			name = "Pods-MachineLearnService_Tests";
 			productName = "Pods-MachineLearnService_Tests";
@@ -365,26 +371,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9EC8CFF3E54A2B6ACE71278D62973BC /* Resources */ = {
+		EC76B189DEAB5ECF3DD01EABD63FF777 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3852A713BEE8943AF756A77A202930A /* AnalysisResultViewController.xib in Resources */,
+				30468319D9FE29404CAE3858A7086CFF /* AnalysisResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FF09E5285A8097066E4F14E10506298 /* Sources */ = {
+		1004EBA561B1675B7642DF2046875134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A8A05EC1D7354480D528FD3318A592D /* AnalysisResultViewController.swift in Sources */,
-				C84E083115274D84C5C99E62529EDF27 /* ImageAnalyzerService.swift in Sources */,
-				EC7B758F582B42A8EE6EB6D5BCA83033 /* MachineLearnService-dummy.m in Sources */,
-				113772A71E45365F60895572B90CADDD /* MNISTClassifier.mlmodel in Sources */,
-				4945F1B505481A0ECE912349B902848D /* ReplaceMe.swift in Sources */,
+				9D0437D46864784D4F340753AAA3232D /* AllVehiclesClassificator2.mlmodel in Sources */,
+				135E6885F94FD625C119CD5C075FB7C1 /* AnalysisResultViewController.swift in Sources */,
+				E90F99568AA4C1AC88D40F1EA9FCEC53 /* ConfiguraView.swift in Sources */,
+				6067E433A45D633B3F6074309BBF46B3 /* ImageAnalyzerService.swift in Sources */,
+				5B4725C48C696417B1617D299E78FFC0 /* MachineLearnService-dummy.m in Sources */,
+				A676CD011A32E2A75CC23B6178062484 /* MNISTClassifier.mlmodel in Sources */,
+				0D77A96E0939F1256F6D6251B9B21DD1 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,17 +415,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C65F8F433E02914A65F71062532209A /* PBXTargetDependency */ = {
+		29D194CDE20D017A86583430B2CA778D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MachineLearnService_Example";
 			target = 451627F47E9ABA922D48B9CFB0F08B46 /* Pods-MachineLearnService_Example */;
-			targetProxy = EDC2D3EF320995008C09839DA9EA424C /* PBXContainerItemProxy */;
+			targetProxy = 14C43FBBDAC16AA842FBA1E12910AF9A /* PBXContainerItemProxy */;
 		};
-		E41393757E36A3FD3943282ED99981AA /* PBXTargetDependency */ = {
+		B91C5BB604349F296809D36482DFABED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MachineLearnService;
 			target = 61B847E84ACC4AEE8C0637711AE6A16A /* MachineLearnService */;
-			targetProxy = 5554CDE3034B588821B4550673CFA28B /* PBXContainerItemProxy */;
+			targetProxy = BE476450E923BB1886157D2E199A7E9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -522,6 +530,71 @@
 			};
 			name = Debug;
 		};
+		723476363F7F3FA3EE3C5F2510A5A389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8876488A8BCF55E091D077D17A8B5E5E /* MachineLearnService.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MachineLearnService/MachineLearnService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MachineLearnService/MachineLearnService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MachineLearnService/MachineLearnService.modulemap";
+				PRODUCT_MODULE_NAME = MachineLearnService;
+				PRODUCT_NAME = MachineLearnService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C24AA0C13D7ACD62B53D158CCF54F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A165E73476D391DB6DBFB594EDAB64FC /* MachineLearnService.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MachineLearnService/MachineLearnService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MachineLearnService/MachineLearnService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MachineLearnService/MachineLearnService.modulemap";
+				PRODUCT_MODULE_NAME = MachineLearnService;
+				PRODUCT_NAME = MachineLearnService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		92A3E9AC052A7345115439021B218E3B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -619,71 +692,6 @@
 			};
 			name = Release;
 		};
-		A072778EB4539C1898E3144747121271 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61D74052E291A154A284E6D31B799D79 /* MachineLearnService.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MachineLearnService/MachineLearnService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MachineLearnService/MachineLearnService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MachineLearnService/MachineLearnService.modulemap";
-				PRODUCT_MODULE_NAME = MachineLearnService;
-				PRODUCT_NAME = MachineLearnService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A477C6686235A1304E9E8154F8A47E3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF72B68BDA7D5CB7784D8B286B3F3DE6 /* MachineLearnService.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MachineLearnService/MachineLearnService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MachineLearnService/MachineLearnService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MachineLearnService/MachineLearnService.modulemap";
-				PRODUCT_MODULE_NAME = MachineLearnService;
-				PRODUCT_NAME = MachineLearnService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BC756BE2BABEEEC3D23DBD3E3C0535BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2797E2C071111578C272F3F59342EAC /* Pods-MachineLearnService_Tests.debug.xcconfig */;
@@ -765,15 +773,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DDBE41B55C49A2471E88BC4F6110400 /* Build configuration list for PBXNativeTarget "MachineLearnService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A072778EB4539C1898E3144747121271 /* Debug */,
-				A477C6686235A1304E9E8154F8A47E3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -788,6 +787,15 @@
 			buildConfigurations = (
 				BC756BE2BABEEEC3D23DBD3E3C0535BF /* Debug */,
 				92FEBB4A59AE92E7F756AE8C101A75C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41AFF95B26A2FB1D41DCEB08E6EC513 /* Build configuration list for PBXNativeTarget "MachineLearnService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C24AA0C13D7ACD62B53D158CCF54F5 /* Debug */,
+				723476363F7F3FA3EE3C5F2510A5A389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
